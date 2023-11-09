@@ -1,7 +1,7 @@
 import os
+from ..secret_key import open_api_key
 
-os.environ["OPENAI_API_KEY"] = "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"
-
+os.environ["OPENAI_API_KEY"] = open_api_key
 from langchain.llms import OpenAI
 
 llm = OpenAI(temperature = 0.6)
