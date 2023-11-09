@@ -1,0 +1,8 @@
+__pycache__
+app\__pycache__
+app\ma.ipynb
+app\b.py
+main.py
+chainlit.md
+venv
+secret_key.py
